@@ -1,0 +1,42 @@
+{
+	"compilerOptions": {
+		"target": "es2024",
+		"module": "commonjs",
+		"moduleResolution": "node",
+		"lib": [
+			"ES2024", "DOM", "ESNext"
+		],
+
+		"rootDir": "src",
+		"outDir": "dist",
+		"noEmitOnError": true,
+		"removeComments": true,
+		"esModuleInterop": true,
+		"skipLibCheck": true,
+
+		"strict": true,
+		"alwaysStrict": true,
+		"strictFunctionTypes": true,
+		"strictNullChecks": true,
+		"strictPropertyInitialization": true,
+	
+		"forceConsistentCasingInFileNames": true,
+		"noImplicitAny": true,
+		"noImplicitReturns": true,
+		"noImplicitThis": true,
+		"noFallthroughCasesInSwitch": true,
+		"noUnusedLocals": true,
+		"noUnusedParameters": true,
+
+		"emitDecoratorMetadata": true,
+		"experimentalDecorators": true,
+		"downlevelIteration": true,
+		"declaration": true,
+
+		"pretty": true
+	},
+	"include": [
+		"typings/**/*",
+		"src/**/*"
+	]
+}
