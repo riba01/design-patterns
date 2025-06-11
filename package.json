@@ -6,7 +6,8 @@
     "test": "echo \"Error: no test specified\" && exit 1",
     "build": "tsc",
     "lint": "tslint -c tslint.json src/**/*.ts",
-    "prepublish": "npm run build"
+    "prepublish": "npm run build",
+    "start": "node -e \"process.stdout.write(process.platform === 'win32' ? '\\u001bc' : '\\x1B[2J\\x1B[0f')\" && ts-node --files --transpile-only src/decorator/main.ts"
   },
   "keywords": [],
   "author": {
